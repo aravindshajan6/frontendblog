@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.104.2" />
+    <title>Album example · Bootstrap v5.2</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.2/examples/album/"
+    />
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./topiccss.css" />
+
+    
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand hvr-grow" href="#" style="color: rgb(233, 227, 227)"
+              >FET</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                  <a
+                    class="nav-link active hvr-grow"
+                    aria-current="page"
+                    href="./index.html"
+                    style="color: rgb(240, 233, 233)"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link hvr-grow"
+                    href="./info.html"
+                    style="color: rgb(243, 236, 236)"
+                    >Info</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-grow" href="#" style="color: rgb(252, 251, 251)"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-grow" href="#" style="color: rgb(246, 240, 240)"
+                    >Contact US</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <div class="d-flex justify-content-center h-100 ">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                      </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-1 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto"><h3 class="mx-auto topichead">Vue.JS</h3></div>
+          
+          <!-- carousel -->
+
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top: 30px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="bd-placeholder-img" src="./images/info/vue_1.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#774"/></img>        
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Approachable</h1>
+                    <p>Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="bd-placeholder-img" src="./images/info/vue_2.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#774"/></img>
+        
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Performant</h1>
+                    <p>Truly reactive, compiler-optimized rendering system that rarely requires manual optimization.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="bd-placeholder-img" src="./images/info/vue_3.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#774"/></img>        
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>Versatile</h1>
+                    <p>A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         
+          <div class="container" style="margin-top: 60px;">
+            <div class="row">
+              <div class="col-sm textc hvr-float">
+                Found By : Evan You
+              </div>
+              <div class="col-sm textc hvr-float">
+                Year : 2014
+              </div>
+              <div class="col-sm textc hvr-float">
+                Owned by : Open Source
+              </div>
+            </div>
+          </div>
+         
+          <h5 style="color: rgb(238, 240, 241); margin-top: 60px;">VueJS is an open source progressive JavaScript framework used to develop interactive web interfaces. It is one of the famous frameworks used to simplify web development. VueJS focusses on the view layer. It can be easily integrated into big projects for front-end development without any issues.
+        
+          </h5>
+          <h2 class="topichead" style="margin-top: 30px;">Why to Learn Vue.JS?</h2>
+        </div>
+
+        
+
+      </section>
+      
+      <div class="container"><h5 class="textc">The Vue CLI tool combined with other frontend development tools makes setting up Vue.js a breeze. It’s set up with some functionality by default, but you can also build code with a DRY (Don’t Repeat Yourself) logic and structure.
+
+        Reactivity is also built into Vue.js. That means the real-time functionality which was popular on the Angular framework is a breeze with Vue.js. For instance, you can easily apply a simple directive such as v-if in your Vue.js application.</h5>
+
+    <h5 class="textc">Key Points: Virtual DOM:
+        VueJS makes the use of virtual DOM, which is also used by other frameworks such as React, Ember, etc. The changes are not made to the DOM, instead a replica of the DOM is created which is present in the form of JavaScript data structures. 
+    
+        Data Binding:
+The data binding feature helps manipulate or assign values to HTML attributes, change the style, assign classes with the help of binding directive called v-bind available with VueJS.
+
+Components:
+Components are one of the important features of VueJS that helps create custom elements, which can be reused in HTML.
+
+Event Handling:
+v-on is the attribute added to the DOM elements to listen to the events in VueJS.
+
+Animation/Transition:
+VueJS provides various ways to apply transition to HTML elements when they are added/updated or removed from the DOM. VueJS has a built-in transition component that needs to be wrapped around the element for transition effect. We can easily add third party animation libraries and also add more interactivity to the interface.
+
+        </h5>
+    </div> <div class="container" style="margin-top: 40px; color:red;">
+      <div class="row">
+        <div class="col-sm">
+          <h5>Docs: <a href="https://vuejs.org/guide/introduction.html"><button class="glow-on-hover">Go here</button></a> </h5>
+        </div>
+        <div class="col-sm a">
+          <h5>Download : <a href="https://cli.vuejs.org/guide/installation.html"><button class="glow-on-hover"> version 3.24</button></a> </h5>
+        </div>
+        <div class="col-sm">
+          
+        </div>
+      </div>
+    </div>
+    </main>
+
+   
+
+    <footer style="margin-top: 120px;" class="text-white text-center text-lg-start bg-dark">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row mt-4">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">About company</h5>
+  
+            <p>
+              At FET we provide the latest advancements in front-end development and everything you need to know about them to get started.
+            </p>
+  
+            <p>
+              We at FET envison a future where every font-end technology is available in one place for you.
+            </p>
+  
+           
+          </div>
+          
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1">Location</h5>
+  
+            
+  
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li bg-danger"><i class="fas fa-home"></i></span><span class="ms-2">Kannur, 670142, Kerala</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li bg-danger"><i class="fas fa-envelope"></i></span><span class="ms-2">aravindshajan123@gmail.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li bg-danger"><i class="fas fa-phone"></i></span><span class="ms-2">+ 91 9999999999</span>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Find Us On</h5>
+  
+            <table class="table text-center text-white">
+              <tbody class="fw-normal">
+                <tr>
+                  
+                  <td>
+                    <!-- Facebook -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg "><i class="fab fa-facebook-f"></i></a>
+              <!-- Dribbble -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg "><i class="fab fa-dribbble"></i></a>
+              <!-- Twitter -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg"><i class="fab fa-twitter"></i></a>
+              <!-- Google + -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg"><i class="fab fa-google-plus-g"></i></a>
+              
+            </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://sites.google.com/view/aravindshajan">aravindshajan</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

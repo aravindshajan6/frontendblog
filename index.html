@@ -38,6 +38,7 @@
     
   </head>
   <body>
+    <div id="preloader"></div>
     <header>
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-grey bg-black">
@@ -532,5 +533,14 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+  <!-- preloader edn script -->
+    <script>
+        var loader = document.getElementById('preloader');
+        window.addEventListener('load', function() {
+        loader.style.display = 'none';
+      });
+
+    </script>
+
   </body>
 </html>

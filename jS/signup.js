@@ -13,6 +13,7 @@ function handlesubmit() {
   if (name.length == 0) {
     message.innerText = 'Please enter your name!';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
 
@@ -20,24 +21,28 @@ function handlesubmit() {
   if (!regex.test(email)) {
     message.innerText = 'Please enter valid Email!';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
   //check password
   if (password.length < 8) {
     message.innerText = 'Password should be minimum 8 !';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
 
   if (!regex2.test(password)) {
     message.innerText = 'Password must have a number !';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
   //match password
   if (rpassword != password) {
     message.innerText = 'Passwords donot match !';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
   //check terms and conditions
@@ -57,3 +62,8 @@ function handlesubmit() {
 //     document.getElementById('acceptTerms').value = 0;
 //   }
 // }
+
+function moveToMessage() {
+  var element = document.getElementById('message');
+  element.scrollIntoView();
+}

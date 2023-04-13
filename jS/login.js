@@ -8,20 +8,27 @@ function validateDetails() {
   if (!regex.test(email)) {
     message.innerText = 'Invalid Email!';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
   if (password.length < 8) {
     message.innerText = 'Password should be minimum 8 !';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
   if (!regex2.test(password)) {
     message.innerText = 'Password must have a number !';
     message.style.display = 'block';
+    moveToMessage();
     return false;
   }
   alert('Login Successful !');
   setTimeout(2000);
-  loginSuccess();
+  // loginSuccess();
 }
-function loginSuccess() {}
+// function loginSuccess() {}
+function moveToMessage() {
+  var element = document.getElementById('message');
+  element.scrollIntoView();
+}

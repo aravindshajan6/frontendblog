@@ -47,10 +47,21 @@ function handlesubmit() {
   }
   //check terms and conditions
   if (document.getElementById('acceptTerms').checked == true) {
-    alert('Sign UP Successfull!');
+    signupSuccess();
   } else if (document.getElementById('acceptTerms').checked == false) {
     alert('Accept terms of service !');
   }
+}
+
+function signupSuccess() {
+  let loader = document.getElementById('loader');
+  loader.style.display = 'block';
+  setTimeout(() => {
+    document.getElementById('loader').style.display = 'none';
+  }, 3000);
+  setTimeout(() => {
+    alert('Signup Successfull !');
+  }, 3000);
 }
 
 // function conditionMet() {

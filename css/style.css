@@ -8,7 +8,6 @@
   z-index: 100;
 }
 
-
 /* index page layout and nav  */
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -76,6 +75,7 @@ body {
 /* cards images */
 .text1 {
   color: whitesmoke;
+  text-decoration: none;
 }
 
 /* awesome search bar */
@@ -215,7 +215,7 @@ body {
   transition-duration: 0.3s;
 }
 .hvr-sweep-to-right:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
@@ -258,7 +258,7 @@ body {
 .hvr-curl-top-left:before {
   pointer-events: none;
   position: absolute;
-  content: "";
+  content: '';
   height: 0;
   width: 0;
   top: 0;
@@ -314,7 +314,7 @@ body {
 .hvr-curl-top-right:before {
   pointer-events: none;
   position: absolute;
-  content: "";
+  content: '';
   height: 0;
   width: 0;
   top: 0;

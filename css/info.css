@@ -6,13 +6,18 @@
 .img-container{
   max-width: 1200px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   
 }
 
+.front-end-img{
+  width: 100%;
+}
+
 .img-p > p{
-  padding: 30px;
+  /* padding: 30px; */
   font-size: 22px;
   margin-left: 50px;
   color: rgb(12, 217, 236);

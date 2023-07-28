@@ -9,7 +9,7 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Hugo 0.104.2" />
-    <title>Album example · Bootstrap v5.2</title>
+    <title>Info</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -23,6 +23,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.2/examples/album/"
@@ -30,7 +32,8 @@
 
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/info.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -89,9 +92,9 @@
   <body>
     <header>
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-grey">
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey bg-black">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: rgb(233, 227, 227)"
+            <a class="navbar-brand hvr-grow" href="./index.html" style="color: rgb(233, 227, 227)"
               >FET</a
             >
             <button
@@ -106,48 +109,38 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
                   <a
-                    class="nav-link active"
+                    class="nav-link active  hvr-grow"
                     aria-current="page"
-                    href="#"
+                    href="./index.html"
                     style="color: rgb(240, 233, 233)"
                     >Home</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="./info.html"
-                    style="color: rgb(243, 236, 236)"
+                <li class="nav-item ">
+                  <a class="nav-link hvr-grow" href="./info.html" style="color: rgb(243, 236, 236)"
                     >Info</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: rgb(252, 251, 251)"
+                <!-- <li class="nav-item">
+                  <a class="nav-link hvr-grow" href="" style="color: rgb(252, 251, 251)"
                     >About</a
                   >
-                </li>
+                </li> -->
                 <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="./signup.html"
-                    style="color: rgb(246, 240, 240)"
+                  <a class="nav-link hvr-grow" href="./signup.html" style="color: rgb(246, 240, 240)"
                     >Sign Up</a
                   >
                 </li>
               </ul>
               <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
+                <div class="d-flex justify-content-center h-100 ">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                      </div>
               </form>
             </div>
           </div>
@@ -156,33 +149,156 @@
     </header>
 
     <main>
-      <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto"></div>
-        </div>
-      </section>
+      
 
       <div class="album py-5 bg-black">
         <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"></div>
+            <div class="img-container">
+              <img src="./images/front-end.png" alt="" >
+              <div class="img-p">
+                <p>
+                  At FET we provide the latest advancements in front-end development and everything you need to know about them to get started.
+                  We at FET envison a future where every font-end technology is available in one place for you.
+                </p>
+              </div>
+            </div>
+            <div class="info-container">
+                  <h1>What Is a Front End Developer?</h1>
+                  <p>A front end developer, also known as a front end web developer, is a professional responsible for the design and implementation of the interface. The users require this interface so that they can access the application in question. A web designer is a professional who creates a website’s appearance and design. And the front end developer makes sure that the design works online by using coding languages such as CSS, HTML, and JavaScript.</p>
+                  <h1>How to Become a Front End Developer?</h1>
+                  <p>Don’t let the above list intimidate you. You can become a front end developer if you follow these simple steps.</p>
+                  <ul>
+                    <li>Step 1: Learn CSS, JavaScript and HTML</li>
+                    <li>Step 2: Get Informed</li>
+                    <li>Step 3: Practice</li>
+                    <li>Step 4: Learn the Command Line</li>
+                    <li>Step 5: Learn Version Control</li>
+                    <li>Step 6: Enhance Your Skills</li>
+                    <li>Step 7: Take a Course</li>
+                    <li>Step 8: Get an Internship</li>
+
+                  </ul>
+                  <h1>Front End Developer Roles and Responsibilities</h1>
+                  <p>If you're wondering what a front end developer does, he must:</p>
+                  <ul>
+                    <li>Decide web page design and structure</li>
+                    <li>Develop features to enhance the user's experience</li>
+                    <li>Striking a balance between functional and aesthetic design.
+                    </li>
+                    <li>Make sure the web design is smartphone-capable
+                    </li>
+                    <li>Build reusable code for future use
+                    </li>
+                    <li>Make sure web pages are optimized for best speed and scalability
+                    </li>
+                    <li>Employ a diverse selection of markup languages to design web pages
+                    </li>
+                    <li>Keep the brand consist throughout the whole design
+                    </li>
+                  </ul>
+                  
+                  <h1>Front End Developer Skills in 2023
+                  </h1>
+                  <p>Since the front end developer is the rock star of website/app development, they need to have a well-stocked personal toolbox. So a front end developer skills include the need to:</p>
+                  <ul>
+
+                    <li>Have a degree in Computer Science or similar field
+                    </li>
+                    <li>Be proficient in coding languages such as HTML, CSS, JavaScript, and jQuery
+                    </li>
+                    <li>Understand server-side CSS.
+                    </li>
+                    <li>Be experienced with graphic design applications (e.g., Adobe Illustrator)
+                    </li>
+                    <li>Understand the principles of SEO
+                    </li>
+                    <li>Have excellent skills in problem-solving
+                    </li>
+                    <li>Be proficient in communicating with team members, bosses, and clients
+                    </li>
+                    <li>Have good interpersonal skills
+                    </li>
+                  </ul>
+    
+            </div>
         </div>
       </div>
     </main>
 
-    <footer class="text-muted py-5">
-      <div class="container">
-        <p class="float-end mb-1">
-          <a href="#">Back to top</a>
-        </p>
-        <p class="mb-1">
-          Album example is &copy; Bootstrap, but please download and customize
-          it for yourself!
-        </p>
-        <p class="mb-0">
-          New to Bootstrap? <a href="/">Visit the homepage</a> or read our
-          <a href="../getting-started/introduction/">getting started guide</a>.
-        </p>
+    <footer style="margin-top: 120px;" class="text-white text-center text-lg-start bg-dark">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row mt-4">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">About company</h5>
+  
+            <p>
+              At FET we provide the latest advancements in front-end development and everything you need to know about them to get started.
+            </p>
+  
+            <p>
+              We at FET envison a future where every font-end technology is available in one place for you.
+            </p>
+  
+           
+          </div>
+          
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1">Location</h5>
+  
+            
+  
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li bg-danger"><i class="fas fa-home"></i></span><span class="ms-2">Kannur, 670142, Kerala</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li bg-danger"><i class="fas fa-envelope"></i></span><span class="ms-2">aravindshajan123@gmail.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li bg-danger"><i class="fas fa-phone"></i></span><span class="ms-2">+ 91 9999999999</span>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Find Us On</h5>
+  
+            <table class="table text-center text-white">
+              <tbody class="fw-normal">
+                <tr>
+                  
+                  <td>
+                    <!-- Facebook -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg "><i class="fab fa-facebook-f"></i></a>
+              <!-- Dribbble -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg "><i class="fab fa-dribbble"></i></a>
+              <!-- Twitter -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg"><i class="fab fa-twitter"></i></a>
+              <!-- Google + -->
+              <a type="button" class="btn btn-floating btn-danger btn-lg"><i class="fab fa-google-plus-g"></i></a>
+              
+            </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
       </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://sites.google.com/view/aravindshajan">aravindshajan</a>
+      </div>
+      <!-- Copyright -->
     </footer>
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
@@ -197,5 +313,6 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>

@@ -497,3 +497,12 @@ body {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+@media screen and (max-width: 1200px) {
+  .navbar-toggler-icon{
+    color: white;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+  }
+}

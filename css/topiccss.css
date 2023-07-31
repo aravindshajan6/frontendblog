@@ -119,6 +119,12 @@ body {
   color: white;
 }
 
+/* carousel */
+#myCarousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Float */
 .hvr-float {
   display: inline-block;
